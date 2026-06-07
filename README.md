@@ -1,16 +1,56 @@
-# React + Vite
+# PRODJET Waitlist Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend assignment built using React.js.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Select user type:
 
-## React Compiler
+  * Student
+  * Brand
+  * College
+* Dynamic form fields based on selected user type
+* Basic form validation
+* Success screen after submission
+* Responsive and clean UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript
+* CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Prakash5475/prodjet-waitlist.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd prodjet-waitlist
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Assignment Requirements Covered
+
+* User Type Selection
+* Conditional Rendering
+* Dynamic Form Fields
+* Form Validation
+* Success Screen
+* Reusable Components
